@@ -5,14 +5,18 @@ except ValueError:
 
 try:
     num2 = int(input("Type a new number: "))
-
+    print(num / num2)
+except ValueError:
+    print("Only numbers are allowed.")   
 except ZeroDivisionError:
     print("Number cannot be zero.")
-print(num / num2)
+
 
 def safe_divide(a, b):
     assert b != 0, "b can't be zero"
     return a / b
+
+print(safe_divide(10, 2))
 
 
 
