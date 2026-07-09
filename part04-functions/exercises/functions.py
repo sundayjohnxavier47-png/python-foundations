@@ -4,12 +4,13 @@ def add(x, y):
 
 def is_even(n):
     return n % 2 == 0
-    """
-    if n % 2 == 0:
-        return True
-    else:
-        return False
-"""
+# first try
+    #if n % 2 == 0:
+     #   return True
+    #else:
+     #   return False
+
+
 def greet_user(name="Guest"):
     print(f"Hello {name}!")
 
