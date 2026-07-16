@@ -1,3 +1,5 @@
+
+# catching errors
 try:
     num = int(input("Type a number: "))
 except ValueError:
