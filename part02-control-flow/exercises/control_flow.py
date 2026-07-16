@@ -2,6 +2,7 @@
 
 num = input("Insert number: ")
 num = int(num)
+# setting conditions
 if num > 0:
     print("Positive")
 elif num < 0:
