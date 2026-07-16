@@ -11,7 +11,7 @@ class Book:
     def __str__(self):
         return f"{self.title} by {self.author}, {self.pages} pages"
     
-
+# putting values 
 my_book = Book("War and Peace", "Leo Tolsy", 1225)
 print(my_book.title)
 print(my_book.author)
