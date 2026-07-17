@@ -46,3 +46,13 @@ try:
         print(content_2)
 except FileNotFoundError:
     print("file does not exist")
+
+
+
+
+
+
+# try; handle specific error types 
+# (ValueError, ZeroDivisionError, etc.) in except, instead of crashing.
+# assert condition, "message" :stops the program with an error if the condition is False; 
+# raise — lets you deliberately trigger your own exception.

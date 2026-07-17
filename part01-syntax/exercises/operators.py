@@ -1,3 +1,5 @@
+# operator + - * / // % ** 
+# (// = floor division,  % = remainder/modulo, ** = exponent)
 num1 = input("insert first numbers")
 num2 = input("insert second numbers")
 num1n = int(num1)

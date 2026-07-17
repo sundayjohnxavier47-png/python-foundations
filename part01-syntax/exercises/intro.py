@@ -6,9 +6,9 @@ age = int(user_input_age)
 user_input_height = input("what is your height in meters?")
 # converting to float
 height = float(user_input_height)
-# using variables and calling them
+# using variables and calling them and using formating string
 print(f"My name is {user_input_name}, I am {age} years old, and I am {height}m tall.")
-# operator
+# operator 
 future_age = age + 10
 #printing
 print(future_age)

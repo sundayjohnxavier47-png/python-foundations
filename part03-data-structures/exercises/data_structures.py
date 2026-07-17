@@ -9,7 +9,7 @@ favorite_food.append("Pineapple")
 for food in favorite_food:
     print(food)
 
-# like struct but not really
+# dictionary loop with .items
 person = {
     "name": "Mono",
     "age": 32,
@@ -20,3 +20,12 @@ for key, value in person.items():
     print(key, value)
 # index used if you want a part
 print(favorite_food[1:3])
+
+
+# list []
+# tuple ()
+# set {}
+# Methods: .append(), .remove(), len()
+#Dictionary {"key": value} accessed by key, not position. Loop with .items()
+# to get both key and value together.
+#Slicing — list[start:stop] extracts a sub-section (stop index not included).

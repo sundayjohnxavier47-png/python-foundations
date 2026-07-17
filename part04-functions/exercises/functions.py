@@ -18,3 +18,9 @@ print(add(3,5))
 print(is_even(12))
 greet_user()
 greet_user("Xavier")
+
+
+# def function_name(params):
+# Default parameter values — def greet(name="Guest"):
+# 
+# 

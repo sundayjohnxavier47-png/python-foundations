@@ -1,5 +1,6 @@
 # creating class
 class Book:
+    # the constructor
     def __init__(self, title, author, pages):
         self.author = author
         self.title = title
@@ -33,3 +34,10 @@ class Ebook(Book):
 
 my_ebook = Ebook("Dune", "Frank Herbert", 412, 3.5)
 my_ebook.summary()
+
+# __init__  runs automatically when an object is created
+# self refer to specific object (object.method())
+# inheritance : class Child(Parent):
+# super().__init__(...) calls parents constructor
+# __str__ a dunder controlling what print(object) shows automatically
+# #
