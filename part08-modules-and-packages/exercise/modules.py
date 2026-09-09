@@ -10,5 +10,5 @@ print(response.status_code)
 
 response2 = requests.get("https://api.github.com/users/octocat")
 data = response2.json()
-#print(data)
+print(data)
 print(data["name"])
