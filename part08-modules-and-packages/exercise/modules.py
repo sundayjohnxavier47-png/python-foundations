@@ -12,3 +12,6 @@ response2 = requests.get("https://api.github.com/users/octocat")
 data = response2.json()
 print(data)
 print(data["name"])
+
+import math
+print(math.sqrt(16))
