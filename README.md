@@ -11,6 +11,6 @@ My structured journey learning Python from the ground up, building toward softwa
 - [x] Part 5 — Strings & Files
 - [x] Part 6 — Error Handling & Debugging
 - [x] Part 7 — Object-Oriented Programming
-- [ ] Part 8 — Modules & Packages
+- [x] Part 8 — Modules & Packages
 - [ ] Part 9 — Testing
 - [ ] Part 10 — Capstone Project
