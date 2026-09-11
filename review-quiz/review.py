@@ -1,3 +1,4 @@
+# Section A
 name = "Xavier"
 age = 42
 print(f"My name is {name} and my dog is {age} years old")
@@ -10,3 +11,18 @@ print(add)
 print(diff)
 print(div)
 print(num1 % 2 == 0)
+
+# Section B
+
+for i in range(1, 20+1):
+    if i % 4 == 0:
+        continue
+    print(i)
+
+
+
+word = input("what is the password? ")
+while word != "secret":
+    word = input("what is the password? ")
+
+    
