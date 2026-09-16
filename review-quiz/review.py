@@ -46,12 +46,12 @@
 
 # Section D
 
-def calculate_total(amounts):
-    return sum(amounts)
+#def calculate_total(amounts):
+   # return sum(amounts)
 
-def format_task(title, priority="Medium"):
-    return f"{title}, {priority}"
+#def format_task(title, priority="Medium"):
+  #  return f"{title}, {priority}"
 
-print(calculate_total([100, 200, 300]))
-print(format_task("Write report"))
-print(format_task("Write report", "High"))
+#print(calculate_total([100, 200, 300]))
+#print(format_task("Write report"))
+#print(format_task("Write report", "High"))
