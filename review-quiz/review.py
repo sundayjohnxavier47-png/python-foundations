@@ -73,3 +73,11 @@ with open("file.txt", "r") as fi:
 
 
 '''
+
+
+def safe_add(a, b):
+    try:
+        return a + b
+    except TypeError:
+        return "use numbers only"
+
