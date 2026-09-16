@@ -59,9 +59,9 @@
 
 # Section E
 
-word = input("input word(s):  ")
-print(word.title())
-
+#word = input("input word(s):  ")
+#print(word.title())
+'''
 with open("file.txt", "w") as fi:
     fi.write(input("input: ") + "\n")
     fi.write(input("input: ") + "\n")
@@ -70,3 +70,6 @@ with open("file.txt", "w") as fi:
 with open("file.txt", "r") as fi:
     content = fi.read()
     print(content)
+
+
+'''
