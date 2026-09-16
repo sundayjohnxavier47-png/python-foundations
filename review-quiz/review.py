@@ -55,3 +55,18 @@
 #print(calculate_total([100, 200, 300]))
 #print(format_task("Write report"))
 #print(format_task("Write report", "High"))
+
+
+# Section E
+
+word = input("input word(s):  ")
+print(word.title())
+
+with open("file.txt", "w") as fi:
+    fi.write(input("input: ") + "\n")
+    fi.write(input("input: ") + "\n")
+    fi.write(input("input: ") + "\n")
+
+with open("file.txt", "r") as fi:
+    content = fi.read()
+    print(content)
