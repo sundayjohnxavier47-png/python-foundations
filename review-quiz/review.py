@@ -28,18 +28,21 @@
     
 # Section C
 
-package = ["cook", "sweep", "clean", "wipe"]
-print(package[1])
-print(package[-1])
+#package = ["cook", "sweep", "clean", "wipe"]
+#print(package[1])
+#print(package[-1])
 
-expense = {
-    "description": "what",
-    "amount" : 90,
-    "category": "type"
-}
+#expense = {
+  #  "description": "what",
+ #   "amount" : 90,
+#    "category": "type"
+#}
 
-for key, value in expense.items():
-    print(key, value)
+#for key, value in expense.items():
+ #   print(key, value)
 
-nums = [10, 20, 30, 40, 50]
-print(nums[1:-1])
+#nums = [10, 20, 30, 40, 50]
+#print(nums[1:-1])
+
+# Section D
+
