@@ -82,3 +82,11 @@ def safe_add(a, b):
 
 '''
 
+class Car:
+    def __init__(self, make, model, year):
+        self.make = make
+        self.model = model
+        self.year = year
+
+    def describe(self):
+        print(f"This  is a {self.make}, with {self.model} model of  {self.year}")
