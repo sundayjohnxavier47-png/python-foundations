@@ -89,4 +89,18 @@ class Car:
         self.year = year
 
     def describe(self):
-        print(f"This  is a {self.make}, with {self.model} model of  {self.year}")
+        print(f"This is a {self.make} {self.model} model of {self.year}")
+
+class ElectricCar(Car):
+    def __init__(self, make, model, year, battery_range):
+        super().__init__(make, model, year)
+        self.battery_range = battery_range
+    
+    def describe(self):
+        print(f"A {self.make} {self.model} of {self.year} with battery range of {self.battery_range}")
+
+my_car = Car("Toyota", "Corolla", 2020)
+my_car.describe()
+
+my_ecar = ElectricCar("Tesla", "Model 3", 2023, 350)
+my_ecar.describe()
