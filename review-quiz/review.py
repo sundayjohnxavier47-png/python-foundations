@@ -72,7 +72,6 @@ with open("file.txt", "r") as fi:
     print(content)
 
 
-'''
 
 
 def safe_add(a, b):
@@ -80,4 +79,6 @@ def safe_add(a, b):
         return a + b
     except TypeError:
         return "use numbers only"
+
+'''
 
