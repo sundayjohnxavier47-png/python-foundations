@@ -80,7 +80,6 @@ def safe_add(a, b):
     except TypeError:
         return "use numbers only"
 
-'''
 
 class Car:
     def __init__(self, make, model, year):
@@ -104,3 +103,4 @@ my_car.describe()
 
 my_ecar = ElectricCar("Tesla", "Model 3", 2023, 350)
 my_ecar.describe()
+'''
